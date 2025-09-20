@@ -1,0 +1,498 @@
+{
+  "theme": {
+    "id": "livingtraditions",
+    "name": "Living Traditions",
+    "description": "Cultural heritage and living traditions",
+    "color": "#C29B7F",
+    "version": "1.0.0"
+  },
+  "metadata": {
+    "lastUpdated": "2025-01-15T10:00:00Z",
+    "totalPoints": 18,
+    "totalConnections": 5,
+    "focusRegion": {
+      "name": "Mediterranean Cultural Basin",
+      "lat": 40.0,
+      "lng": 15.0,
+      "altitude": 2.8
+    },
+    "dataSource": "Mind the Journey Database",
+    "license": "CC BY-SA 4.0"
+  },
+  "points": [
+    {
+      "id": "lt_sahara_nomads_001",
+      "name": "Sahara Nomadic Cultures",
+      "slug": "sahara-nomadic-cultures",
+      "description": "Ancient Tuareg and Berber traditions of desert survival and navigation.",
+      "lat": 23.806078,
+      "lng": 11.288452,
+      "type": "nomadic_culture",
+      "category": "intangible_heritage",
+      "elevation": 450,
+      "significance": "Millennia-old traditions of desert navigation, oral storytelling, and sustainable nomadism.",
+      "primaryTheme": "livingtraditions",
+      "crossReferences": [
+        {
+          "theme": "wildrealms",
+          "context": "Sahara Desert ecosystem and adaptation strategies",
+          "focus": "Human-environment interaction in extreme conditions"
+        },
+        {
+          "theme": "borderscapes", 
+          "context": "Nomadic routes crossing modern national boundaries",
+          "focus": "Traditional territories vs. modern borders"
+        },
+        {
+          "theme": "mindscapes",
+          "context": "Sacred sites and astronomical navigation methods",
+          "focus": "Spiritual geography and desert mysteries"
+        }
+      ],
+      "color": "#C29B7F",
+      "size": 8,
+      "priority": 1,
+      "country": "Multiple (Mali, Niger, Algeria, Morocco)",
+      "region": "Sahara Desert",
+      "culturalInfo": {
+        "peoples": ["Tuareg", "Berber", "Sahrawis"],
+        "languages": ["Tamasheq", "Berber dialects", "Arabic"],
+        "traditions": ["Desert navigation", "Oral poetry", "Camel herding", "Salt trading"],
+        "threats": ["Sedentarization", "Climate change", "Political conflicts"],
+        "preservation": "UNESCO Intangible Cultural Heritage"
+      },
+      "practices": {
+        "navigation": "Star-based wayfinding across trackless desert",
+        "storytelling": "Oral histories preserved for generations",
+        "hospitality": "Sacred duty to welcome travelers",
+        "crafts": ["Silver jewelry", "Leather goods", "Textiles"]
+      },
+      "interactiveData": {
+        "clickAction": "showCulturalDetail",
+        "hoverTooltip": "🐪 Ancient nomadic wisdom | Desert survival traditions",
+        "detailUrl": "/location/sahara-nomadic-cultures"
+      }
+    },
+    {
+      "id": "lt_venice_carnival_001",
+      "name": "Venetian Carnival Tradition",
+      "slug": "venetian-carnival",
+      "description": "Centuries-old celebration of masks, mystery, and social transformation.",
+      "lat": 45.4408,
+      "lng": 12.3155,
+      "type": "festival_tradition",
+      "category": "performative_heritage",
+      "significance": "Medieval tradition of social role reversal and artistic expression through elaborate masks.",
+      "primaryTheme": "livingtraditions",
+      "crossReferences": [
+        {
+          "theme": "borderscapes",
+          "context": "Venice as historic maritime republic and trading empire",
+          "focus": "Cultural diplomacy and international influence"
+        },
+        {
+          "theme": "mindscapes",
+          "context": "Mysterious masked identities and carnival psychology",
+          "focus": "Social transformation and hidden identities"
+        }
+      ],
+      "color": "#D4AB92",
+      "size": 7,
+      "priority": 1,
+      "country": "Italy",
+      "region": "Veneto",
+      "culturalInfo": {
+        "established": "1162",
+        "duration": "18 days before Lent",
+        "participants": "3 million annual visitors",
+        "traditions": ["Mask making", "Period costumes", "Gondola parades", "Historical reenactments"],
+        "crafts": ["Venetian masks", "Glass blowing", "Lace making"],
+        "unesco": "Intangible Cultural Heritage candidate"
+      },
+      "maskTypes": {
+        "bauta": "White mask for anonymity",
+        "columbina": "Half-mask for elegance",
+        "medico_peste": "Plague doctor mask",
+        "volto": "Full face classical mask"
+      },
+      "interactiveData": {
+        "clickAction": "showFestivalDetail",
+        "hoverTooltip": "🎭 Venetian masks & mystery | Medieval carnival tradition",
+        "detailUrl": "/location/venetian-carnival"
+      }
+    },
+    {
+      "id": "lt_flamenco_andalusia_001",
+      "name": "Flamenco Heartland",
+      "slug": "flamenco-andalusia",
+      "description": "Birthplace of flamenco, where Romani, Moorish, and Spanish cultures fused into passionate art.",
+      "lat": 37.3886,
+      "lng": -5.9823,
+      "type": "musical_tradition",
+      "category": "intangible_heritage",
+      "significance": "UNESCO Masterpiece of Oral and Intangible Heritage representing cultural fusion.",
+      "primaryTheme": "livingtraditions",
+      "crossReferences": [
+        {
+          "theme": "borderscapes",
+          "context": "Andalusia as frontier between Christian and Islamic Spain",
+          "focus": "Cultural mixing zones and historical boundaries"
+        }
+      ],
+      "color": "#8B6A52",
+      "size": 7,
+      "priority": 1,
+      "country": "Spain",
+      "region": "Andalusia",
+      "culturalInfo": {
+        "origins": "15th-16th century cultural fusion",
+        "influences": ["Romani", "Moorish", "Jewish", "Andalusian"],
+        "forms": ["Cante (singing)", "Baile (dance)", "Toque (guitar)"],
+        "palos": "Over 50 distinct flamenco styles",
+        "centers": ["Sevilla", "Cádiz", "Jerez de la Frontera", "Granada"],
+        "unesco": "Intangible Cultural Heritage (2010)"
+      },
+      "elements": {
+        "duende": "Mystical emotional intensity",
+        "jaleo": "Audience participation and encouragement",
+        "palmas": "Rhythmic hand clapping",
+        "zapateado": "Percussive footwork"
+      },
+      "interactiveData": {
+        "clickAction": "showMusicalTradition",
+        "hoverTooltip": "💃 Flamenco passion | Cultural fusion heritage",
+        "detailUrl": "/location/flamenco-andalusia"
+      }
+    },
+    {
+      "id": "lt_trulli_alberobello_001",
+      "name": "Trulli Traditional Architecture",
+      "slug": "trulli-alberobello",
+      "description": "Unique conical-roofed houses representing ancient building techniques and rural wisdom.",
+      "lat": 40.7838,
+      "lng": 17.2348,
+      "type": "architectural_heritage",
+      "category": "vernacular_architecture",
+      "significance": "UNESCO World Heritage site showcasing sustainable traditional building methods.",
+      "primaryTheme": "livingtraditions",
+      "crossReferences": [
+        {
+          "theme": "mindscapes",
+          "context": "Mysterious symbols painted on trulli roofs",
+          "focus": "Esoteric meanings and protective magic"
+        }
+      ],
+      "color": "#A6826B",
+      "size": 6,
+      "priority": 2,
+      "country": "Italy",
+      "region": "Puglia",
+      "architecturalInfo": {
+        "construction": "Dry stone (no mortar)",
+        "materials": ["Local limestone", "Chiancarelle roof tiles"],
+        "technique": "Corbelled construction",
+        "symbols": "Painted roof symbols for protection",
+        "dating": "14th-16th centuries",
+        "count": "Over 1,500 in Alberobello"
+      },
+      "traditions": {
+        "construction": "Passed down through generations of master builders",
+        "maintenance": "Community cooperation for repairs",
+        "symbolism": "Roof symbols for luck, protection, religious devotion",
+        "lifestyle": "Rural agricultural community practices"
+      },
+      "interactiveData": {
+        "clickAction": "showArchitecturalHeritage",
+        "hoverTooltip": "🏠 Ancient building wisdom | UNESCO heritage",
+        "detailUrl": "/location/trulli-alberobello"
+      }
+    },
+    {
+      "id": "lt_palio_siena_001",
+      "name": "Palio di Siena",
+      "slug": "palio-siena",
+      "description": "Medieval horse race preserving neighborhood identity and centuries-old rivalries.",
+      "lat": 43.3189,
+      "lng": 11.3306,
+      "type": "traditional_festival",
+      "category": "community_ritual",
+      "significance": "Living medieval tradition maintaining neighborhood (contrada) identity and social cohesion.",
+      "primaryTheme": "livingtraditions",
+      "crossReferences": [
+        {
+          "theme": "borderscapes",
+          "context": "Medieval city-state territorial divisions within Siena",
+          "focus": "Urban administrative boundaries and neighborhood governance"
+        }
+      ],
+      "color": "#C29B7F",
+      "size": 7,
+      "priority": 1,
+      "country": "Italy",
+      "region": "Tuscany",
+      "eventInfo": {
+        "frequency": "Twice yearly (July 2 & August 16)",
+        "duration": "4 days of celebrations",
+        "participants": "17 contrade (neighborhoods)",
+        "history": "First recorded 1633",
+        "location": "Piazza del Campo",
+        "traditions": "Blessing of horses, neighborhood dinners, flag throwing"
+      },
+      "contrade": {
+        "total": 17,
+        "competing": "10 per race (rotation system)",
+        "animals": ["Eagle", "Snail", "Wave", "Panther", "Forest", "Tortoise", "Owl", "Unicorn", "Shell", "Tower", "Ram", "Caterpillar", "Dragon", "Giraffe", "Porcupine", "She-wolf", "Goose"],
+        "rivalries": "Historic enemies and alliances"
+      },
+      "interactiveData": {
+        "clickAction": "showFestivalTradition",
+        "hoverTooltip": "🐎 Medieval horse race | Living neighborhood traditions",
+        "detailUrl": "/location/palio-siena"
+      }
+    },
+    {
+      "id": "lt_transhumance_001",
+      "name": "Mediterranean Transhumance",
+      "slug": "mediterranean-transhumance",
+      "description": "Ancient seasonal migration of livestock following traditional mountain-to-valley routes.",
+      "lat": 42.0833,
+      "lng": 14.2167,
+      "type": "pastoral_tradition",
+      "category": "intangible_heritage",
+      "significance": "UNESCO Intangible Cultural Heritage representing sustainable mountain pastoralism.",
+      "primaryTheme": "livingtraditions",
+      "crossReferences": [
+        {
+          "theme": "wildrealms",
+          "context": "Traditional grazing maintaining mountain ecosystem balance",
+          "focus": "Sustainable pastoralism and biodiversity conservation"
+        },
+        {
+          "theme": "borderscapes",
+          "context": "Pastoral routes crossing regional and national boundaries",
+          "focus": "Traditional rights vs. modern administrative boundaries"
+        }
+      ],
+      "color": "#8B6A52",
+      "size": 6,
+      "priority": 2,
+      "country": "Italy (multiple regions)",
+      "region": "Abruzzo, Molise, Puglia",
+      "pastoralInfo": {
+        "routes": "Ancient tratturi (drove roads)",
+        "distance": "Up to 200km seasonal migrations", 
+        "livestock": ["Sheep", "Cattle", "Goats"],
+        "seasons": "Summer mountains, winter lowlands",
+        "communities": ["Shepherds", "Transhumant families"],
+        "unesco": "Intangible Cultural Heritage (2019)"
+      },
+      "traditions": {
+        "knowledge": "Weather prediction, animal behavior",
+        "routes": "Memorized paths passed down generations",
+        "tools": ["Traditional shepherd's crook", "Pastoral clothing"],
+        "food": "Cheese-making, preserved meats",
+        "music": "Pastoral songs and calls"
+      },
+      "interactiveData": {
+        "clickAction": "showPastoralTradition",
+        "hoverTooltip": "🐑 Ancient migration routes | Sustainable pastoralism",
+        "detailUrl": "/location/mediterranean-transhumance"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "conn_cultural_routes",
+      "name": "Mediterranean Cultural Exchange",
+      "description": "Ancient routes of cultural diffusion across the Mediterranean",
+      "startPointId": "lt_sahara_nomads_001",
+      "endPointId": "lt_flamenco_andalusia_001", 
+      "startLat": 23.806078,
+      "startLng": 11.288452,
+      "endLat": 37.3886,
+      "endLng": -5.9823,
+      "type": "cultural_corridor",
+      "category": "heritage_connection",
+      "color": "rgba(194, 155, 127, 0.6)",
+      "strokeWidth": 3,
+      "animationSpeed": 4500,
+      "significance": "Trans-Saharan cultural exchange routes bringing African, Arab, and European traditions together"
+    },
+    {
+      "id": "conn_pilgrimage_routes",
+      "name": "Historic Pilgrimage Network",
+      "description": "Medieval pilgrimage routes connecting sacred sites",
+      "startPointId": "lt_venice_carnival_001",
+      "endPointId": "lt_palio_siena_001",
+      "startLat": 45.4408,
+      "startLng": 12.3155,
+      "endLat": 43.3189,
+      "endLng": 11.3306,
+      "type": "pilgrimage_route",
+      "category": "spiritual_connection",
+      "color": "rgba(212, 171, 146, 0.7)",
+      "strokeWidth": 2,
+      "animationSpeed": 5000,
+      "significance": "Medieval routes connecting Italian city-states and maintaining cultural exchange"
+    },
+    {
+      "id": "conn_pastoral_network",
+      "name": "Transhumance Corridor",
+      "description": "Traditional pastoral routes connecting mountain and lowland cultures",
+      "startPointId": "lt_transhumance_001",
+      "endPointId": "lt_trulli_alberobello_001",
+      "startLat": 42.0833,
+      "startLng": 14.2167,
+      "endLat": 40.7838,
+      "endLng": 17.2348,
+      "type": "pastoral_route",
+      "category": "economic_tradition",
+      "color": "rgba(139, 106, 82, 0.5)",
+      "strokeWidth": 2,
+      "animationSpeed": 6000,
+      "significance": "Seasonal migration routes connecting Apennine mountains to Puglian plains"
+    }
+  ],
+  "regions": [
+    {
+      "id": "mediterranean_cultural",
+      "name": "Mediterranean Cultural Basin",
+      "description": "Crossroads of civilizations with shared cultural heritage",
+      "centerLat": 40.0,
+      "centerLng": 15.0,
+      "boundingBox": {
+        "north": 45.0,
+        "south": 30.0,
+        "east": 20.0,
+        "west": -10.0
+      },
+      "color": "rgba(194, 155, 127, 0.2)",
+      "strokeColor": "#C29B7F",
+      "importance": "critical",
+      "contains": ["lt_venice_carnival_001", "lt_flamenco_andalusia_001", "lt_trulli_alberobello_001", "lt_palio_siena_001", "lt_transhumance_001"],
+      "characteristics": [
+        "Cultural crossroads of Africa, Asia, Europe",
+        "Shared maritime heritage",
+        "Common agricultural traditions",
+        "Interwoven religious histories"
+      ]
+    }
+  ],
+  "interactionSettings": {
+    "globeControls": {
+      "enableZoom": true,
+      "enableRotation": true,
+      "enablePan": true,
+      "autoRotate": true,
+      "autoRotateSpeed": 0.3
+    },
+    "pointInteractions": {
+      "hoverEffects": true,
+      "clickNavigation": true,
+      "tooltipDelay": 600,
+      "highlightConnections": true,
+      "showCrossReferences": true,
+      "pulseAnimation": true
+    },
+    "viewPresets": [
+      {
+        "name": "Mediterranean Heritage",
+        "lat": 40.0,
+        "lng": 15.0,
+        "altitude": 2.5,
+        "description": "Overview of Mediterranean cultural traditions"
+      },
+      {
+        "name": "Sahara Cultures",
+        "lat": 23.8,
+        "lng": 11.3,
+        "altitude": 1.5,
+        "description": "Focus on nomadic desert traditions"
+      },
+      {
+        "name": "Italian Traditions",
+        "lat": 42.5,
+        "lng": 13.0,
+        "altitude": 1.8,
+        "description": "Traditional Italian cultural heritage"
+      }
+    ]
+  },
+  "legend": {
+    "pointTypes": [
+      {
+        "type": "nomadic_culture",
+        "color": "#C29B7F",
+        "icon": "🐪",
+        "label": "Nomadic Traditions"
+      },
+      {
+        "type": "festival_tradition",
+        "color": "#D4AB92",
+        "icon": "🎭",
+        "label": "Festival Heritage"
+      },
+      {
+        "type": "architectural_heritage",
+        "color": "#A6826B",
+        "icon": "🏠",
+        "label": "Traditional Architecture"
+      },
+      {
+        "type": "pastoral_tradition",
+        "color": "#8B6A52",
+        "icon": "🐑",
+        "label": "Pastoral Traditions"
+      },
+      {
+        "type": "musical_tradition",
+        "color": "#8B6A52",
+        "icon": "💃",
+        "label": "Musical Heritage"
+      }
+    ],
+    "connectionTypes": [
+      {
+        "type": "cultural_corridor",
+        "color": "rgba(194, 155, 127, 0.6)",
+        "style": "solid",
+        "label": "Cultural Exchange Route"
+      },
+      {
+        "type": "pilgrimage_route",
+        "color": "rgba(212, 171, 146, 0.7)",
+        "style": "dashed",
+        "label": "Pilgrimage Path"
+      },
+      {
+        "type": "pastoral_route",
+        "color": "rgba(139, 106, 82, 0.5)",
+        "style": "dotted",
+        "label": "Transhumance Route"
+      }
+    ]
+  },
+  "culturalStats": {
+    "unescoSites": 8,
+    "livingTraditions": 15,
+    "languages": 25,
+    "communities": 50,
+    "festivals": 120,
+    "threats": [
+      "Globalization pressure",
+      "Youth migration to cities", 
+      "Tourism commercialization",
+      "Climate change impacts"
+    ]
+  },
+  "analytics": {
+    "popularPoints": ["lt_venice_carnival_001", "lt_flamenco_andalusia_001", "lt_sahara_nomads_001"],
+    "searchKeywords": ["traditions", "culture", "festival", "heritage", "unesco", "flamenco", "carnival"],
+    "averageViewTime": 280,
+    "interactionHotspots": [
+      {"lat": 45.4, "lng": 12.3, "intensity": 0.9},
+      {"lat": 37.4, "lng": -5.9, "intensity": 0.8},
+      {"lat": 23.8, "lng": 11.3, "intensity": 0.7}
+    ]
+  }
+}

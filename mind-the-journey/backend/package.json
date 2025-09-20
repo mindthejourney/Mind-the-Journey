@@ -1,0 +1,148 @@
+{
+  "name": "mind-the-journey-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Mind the Journey - Responsible Tourism Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "debug": "nodemon --inspect server.js",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "backup": "node scripts/backup.js",
+    "lint": "eslint . --ext .js --fix",
+    "format": "prettier --write \"**/*.js\"",
+    "docker:build": "docker build -t mtj-backend .",
+    "docker:run": "docker run -p 5000:5000 --env-file .env mtj-backend",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop all",
+    "pm2:restart": "pm2 restart all",
+    "validate": "npm run lint && npm run test"
+  },
+  "keywords": [
+    "tourism",
+    "travel",
+    "sustainability",
+    "api",
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "Mind the Journey Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^7.1.5",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.0",
+    "validator": "^13.11.0",
+    "nodemailer": "^6.9.7",
+    "stripe": "^14.8.0",
+    "redis": "^4.6.11",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-google-oauth20": "^2.0.0",
+    "express-validator": "^7.0.1",
+    "moment": "^2.29.4",
+    "lodash": "^4.17.21",
+    "axios": "^1.6.2",
+    "uuid": "^9.0.1",
+    "csv-parse": "^5.5.2",
+    "csv-stringify": "^6.4.4",
+    "archiver": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "prettier": "^3.1.0",
+    "@types/node": "^20.9.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/setup.js"
+    ],
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!node_modules/**",
+      "!coverage/**",
+      "!tests/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base"
+    ],
+    "env": {
+      "node": true,
+      "es2021": true,
+      "jest": true
+    },
+    "rules": {
+      "no-console": "off",
+      "consistent-return": "off",
+      "no-param-reassign": [
+        "error",
+        {
+          "props": false
+        }
+      ]
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "printWidth": 100
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mind-the-journey-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mind-the-journey-backend/issues"
+  },
+  "homepage": "https://mindthejourney.com"
+}

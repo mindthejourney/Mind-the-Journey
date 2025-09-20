@@ -1,0 +1,712 @@
+{
+  "theme": {
+    "id": "mindscapes",
+    "name": "Mindscapes",
+    "description": "Geological wonders and mysterious places",
+    "color": "#AC97BC",
+    "version": "1.0.0"
+  },
+  "metadata": {
+    "lastUpdated": "2025-01-15T10:00:00Z",
+    "totalPoints": 16,
+    "totalConnections": 4,
+    "focusRegion": {
+      "name": "Mediterranean Mysteries",
+      "lat": 41.0,
+      "lng": 14.0,
+      "altitude": 2.5
+    },
+    "dataSource": "Mind the Journey Database",
+    "license": "CC BY-SA 4.0"
+  },
+  "points": [
+    {
+      "id": "ms_sahara_singing_dunes_001",
+      "name": "Sahara Singing Dunes",
+      "slug": "sahara-singing-dunes",
+      "description": "Mysterious sand dunes that produce haunting musical tones when disturbed.",
+      "lat": 28.5,
+      "lng": -9.7,
+      "type": "acoustic_phenomenon",
+      "category": "geological_mystery",
+      "elevation": 380,
+      "significance": "Acoustic phenomenon where sand grains create resonant frequencies producing otherworldly sounds.",
+      "primaryTheme": "mindscapes",
+      "crossReferences": [
+        {
+          "theme": "wildrealms",
+          "context": "Sahara Desert ecosystem and sand dune formation",
+          "focus": "Geological processes creating the acoustic conditions"
+        },
+        {
+          "theme": "livingtraditions",
+          "context": "Berber legends and spiritual significance of singing sands", 
+          "focus": "Cultural interpretations and mythological meanings"
+        },
+        {
+          "theme": "borderscapes",
+          "context": "Located in Morocco near Western Sahara disputed territory",
+          "focus": "Geopolitical context of desert regions"
+        }
+      ],
+      "color": "#AC97BC",
+      "size": 8,
+      "priority": 1,
+      "country": "Morocco",
+      "region": "Souss-Massa",
+      "phenomenonInfo": {
+        "acoustics": "Sand avalanches create frequencies 60-105 Hz",
+        "conditions": "Requires specific sand grain size and moisture",
+        "sound": "Deep humming to high-pitched whistling",
+        "duration": "Can last several minutes",
+        "triggers": ["Wind", "Footsteps", "Sand sliding"],
+        "bestTime": "Late afternoon when sand is warm and dry"
+      },
+      "science": {
+        "mechanism": "Synchronized vibration of sand grains",
+        "frequency": "Related to dune height and sand properties",
+        "research": "Ongoing studies on acoustic resonance",
+        "similar": "Found in 30+ locations worldwide"
+      },
+      "mythology": {
+        "berber": "Voices of desert spirits",
+        "arabic": "Songs of buried cities",
+        "modern": "Natural desert symphony"
+      },
+      "interactiveData": {
+        "clickAction": "showAcousticPhenomenon",
+        "hoverTooltip": "🎵 Desert symphony | Singing sand phenomenon",
+        "detailUrl": "/location/sahara-singing-dunes"
+      }
+    },
+    {
+      "id": "ms_stromboli_lighthouse_001",
+      "name": "Stromboli - Lighthouse of the Mediterranean",
+      "slug": "stromboli-volcano",
+      "description": "The eternally active volcano that guided ancient Mediterranean navigators.",
+      "lat": 38.789,
+      "lng": 15.213,
+      "type": "volcanic_phenomenon",
+      "category": "natural_lighthouse",
+      "elevation": 924,
+      "significance": "Continuously active volcano for over 2,000 years, served as natural lighthouse for ancient sailors.",
+      "primaryTheme": "mindscapes",
+      "crossReferences": [
+        {
+          "theme": "borderscapes",
+          "context": "Strategic position in Mediterranean navigation routes",
+          "focus": "Natural landmark defining maritime boundaries"
+        },
+        {
+          "theme": "livingtraditions",
+          "context": "Ancient Greek and Roman mythology of Vulcan's forge",
+          "focus": "Cultural significance in Mediterranean civilizations"
+        }
+      ],
+      "color": "#C0B1CE",
+      "size": 7,
+      "priority": 1,
+      "country": "Italy",
+      "region": "Sicily (Aeolian Islands)",
+      "volcanicInfo": {
+        "type": "Stratovolcano",
+        "activity": "Continuously active for 2000+ years",
+        "style": "Strombolian eruptions",
+        "frequency": "Every 10-20 minutes",
+        "height": "924m above sea level, 2000m from sea floor",
+        "lastMajor": "2019 explosive event"
+      },
+      "navigation": {
+        "ancient": "Natural lighthouse for Phoenician and Greek sailors",
+        "visibility": "Glow visible from 150+ km at night",
+        "warnings": "Maritime hazard due to pyroclastic flows",
+        "modern": "Tourist destination with guided summit tours"
+      },
+      "mythology": {
+        "roman": "Forge of Vulcan, god of fire",
+        "greek": "Home of Cyclops forging Zeus's thunderbolts",
+        "sicilian": "Gateway between worlds"
+      },
+      "interactiveData": {
+        "clickAction": "showVolcanicActivity",
+        "hoverTooltip": "🌋 Eternal fire | Ancient Mediterranean lighthouse",
+        "detailUrl": "/location/stromboli-volcano"
+      }
+    },
+    {
+      "id": "ms_blue_grotto_capri_001",
+      "name": "Blue Grotto of Capri",
+      "slug": "blue-grotto-capri",
+      "description": "Mystical sea cave where sunlight creates an ethereal blue illumination.",
+      "lat": 40.5627,
+      "lng": 14.2056,
+      "type": "optical_phenomenon",
+      "category": "marine_cave",
+      "significance": "Natural optical phenomenon creating otherworldly blue light through underwater cave opening.",
+      "primaryTheme": "mindscapes",
+      "crossReferences": [
+        {
+          "theme": "livingtraditions",
+          "context": "Roman Emperor Tiberius's private bathing grotto",
+          "focus": "Ancient imperial retreat and mythological associations"
+        }
+      ],
+      "color": "#957BA3",
+      "size": 6,
+      "priority": 2,
+      "country": "Italy",
+      "region": "Campania (Capri)",
+      "cavern": {
+        "length": "50 meters",
+        "width": "30 meters", 
+        "entrance": "1 meter high underwater opening",
+        "depth": "15 meters maximum",
+        "access": "Small rowboats only",
+        "temperature": "18°C year-round"
+      },
+      "optics": {
+        "phenomenon": "Sunlight enters through underwater cavity",
+        "refraction": "Light passes through submerged opening, reflects off sandy bottom",
+        "color": "Brilliant blue illumination of cavern",
+        "bestTime": "10 AM - 2 PM for optimal lighting",
+        "conditions": "Calm seas required for boat entry"
+      },
+      "history": {
+        "roman": "Tiberius's private swimming grotto with statues",
+        "rediscovered": "1826 after centuries of local fishermen knowledge",
+        "statues": "Roman sculptures found on cave floor",
+        "tourism": "Major attraction since 19th century"
+      },
+      "interactiveData": {
+        "clickAction": "showOpticalPhenomenon",
+        "hoverTooltip": "💙 Ethereal blue light | Underwater illumination",
+        "detailUrl": "/location/blue-grotto-capri"
+      }
+    },
+    {
+      "id": "ms_etna_philosophers_001",
+      "name": "Mount Etna - Forge of Philosophy",
+      "slug": "mount-etna-philosophy",
+      "description": "Europe's most active volcano where Empedocles pondered the elements and met his legendary end.",
+      "lat": 37.748,
+      "lng": 14.999,
+      "type": "volcanic_philosophy",
+      "category": "intellectual_mystery",
+      "elevation": 3329,
+      "significance": "Birthplace of elemental theory where ancient philosopher Empedocles studied fire, air, earth, water.",
+      "primaryTheme": "mindscapes",
+      "crossReferences": [
+        {
+          "theme": "wildrealms",
+          "context": "Mount Etna ecosystem and volcanic soil fertility",
+          "focus": "Biodiversity hotspot created by volcanic activity"
+        },
+        {
+          "theme": "livingtraditions",
+          "context": "Sicilian folklore and Greek mythological traditions",
+          "focus": "Cultural narratives around volcanic activity"
+        }
+      ],
+      "color": "#7C638A",
+      "size": 8,
+      "priority": 1,
+      "country": "Italy",
+      "region": "Sicily",
+      "volcanicInfo": {
+        "type": "Stratovolcano",
+        "height": "3,329m (constantly changing)",
+        "base": "1,190 km² footprint",
+        "activity": "Most active volcano in world",
+        "eruptions": "Several per year",
+        "age": "500,000 years old"
+      },
+      "philosophy": {
+        "empedocles": "490-430 BCE philosopher from Akragas (Agrigento)",
+        "theory": "Four classical elements (fire, air, earth, water)",
+        "legend": "Threw himself into crater to become a god",
+        "evidence": "Bronze sandal allegedly found on rim",
+        "influence": "Foundation of Western natural philosophy"
+      },
+      "mysteries": {
+        "death": "Did Empedocles jump or was it an accident?",
+        "motivation": "Seeking divine transformation or scientific observation?",
+        "modern": "Continues to inspire philosophers and scientists",
+        "symbolism": "Ultimate union with elemental forces"
+      },
+      "interactiveData": {
+        "clickAction": "showPhilosophicalSite",
+        "hoverTooltip": "🔥 Birthplace of elemental theory | Empedocles mystery",
+        "detailUrl": "/location/mount-etna-philosophy"
+      }
+    },
+    {
+      "id": "ms_alpe_di_siusi_stone_men_001",
+      "name": "Alpe di Siusi Stone Men",
+      "slug": "alpe-siusi-stone-men",
+      "description": "Mysterious stone formations that appear as petrified giants guarding Alpine meadows.",
+      "lat": 46.5436,
+      "lng": 11.6439,
+      "type": "geological_formation",
+      "category": "natural_sculpture",
+      "elevation": 1680,
+      "significance": "Erosional pillars creating anthropomorphic rock formations in Europe's largest alpine meadow.",
+      "primaryTheme": "mindscapes",
+      "crossReferences": [
+        {
+          "theme": "wildrealms",
+          "context": "Alpe di Siusi nature park and alpine ecosystem",
+          "focus": "High-altitude meadow biodiversity and geological processes"
+        },
+        {
+          "theme": "livingtraditions",
+          "context": "South Tyrolean legends of petrified giants and mountain spirits",
+          "focus": "Alpine folklore and cultural interpretations"
+        }
+      ],
+      "color": "#AC97BC",
+      "size": 6,
+      "priority": 2,
+      "country": "Italy",
+      "region": "South Tyrol (Alto Adige)",
+      "geological": {
+        "formation": "Dolomite limestone erosion pillars",
+        "process": "Differential weathering over millions of years",
+        "height": "10-30 meters tall",
+        "composition": "Triassic dolomite rock",
+        "age": "250 million years (rock), 10,000 years (current forms)"
+      },
+      "folklore": {
+        "german": "Schlernhexen (Sciliar Witches) turned to stone",
+        "italian": "Uomini di pietra (Stone Men) ancient guardians",
+        "ladin": "Spirits of the mountain protecting the meadows",
+        "scientific": "Pareidolia - seeing faces in rock formations"
+      },
+      "phenomena": {
+        "shadows": "Create dramatic silhouettes at sunrise/sunset",
+        "weather": "Natural weather vanes indicating storm approach",
+        "acoustics": "Wind creates eerie sounds through rock gaps",
+        "seasons": "Appearance changes dramatically with snow/vegetation"
+      },
+      "interactiveData": {
+        "clickAction": "showGeologicalFormation",
+        "hoverTooltip": "🗿 Petrified giants | Alpine stone guardians",
+        "detailUrl": "/location/alpe-siusi-stone-men"
+      }
+    },
+    {
+      "id": "ms_matera_time_cave_001",
+      "name": "Matera - Cave City of Time",
+      "slug": "matera-sassi-caves",
+      "description": "Ancient cave dwellings carved from living rock, inhabited continuously for 9,000 years.",
+      "lat": 40.6663,
+      "lng": 16.6044,
+      "type": "archaeological_mystery",
+      "category": "living_archaeology",
+      "elevation": 401,
+      "significance": "One of world's oldest continuously inhabited settlements, carved entirely from limestone.",
+      "primaryTheme": "mindscapes",
+      "crossReferences": [
+        {
+          "theme": "livingtraditions",
+          "context": "Continuous habitation and traditional cave-dwelling lifestyle",
+          "focus": "Ancient building techniques and community traditions"
+        },
+        {
+          "theme": "borderscapes",
+          "context": "Strategic position in southern Italy's historical boundaries",
+          "focus": "Cultural crossroads between Mediterranean civilizations"
+        }
+      ],
+      "color": "#C0B1CE",
+      "size": 7,
+      "priority": 1,
+      "country": "Italy",
+      "region": "Basilicata",
+      "archaeology": {
+        "age": "Paleolithic settlements 9,000+ years ago",
+        "materials": "Calcarenite limestone (tufa stone)",
+        "technique": "Carved directly from rock face",
+        "districts": "Sasso Caveoso and Sasso Barisano",
+        "caves": "Over 1,000 cave dwellings",
+        "unesco": "World Heritage Site (1993)"
+      },
+      "mystery": {
+        "preservation": "How did structures survive millennia?",
+        "engineering": "Sophisticated water collection and ventilation",
+        "abandonment": "Mass exodus in 1950s-60s due to poverty",
+        "revival": "Transformation into luxury hotels and restaurants",
+        "cinema": "Film location for biblical movies due to timeless appearance"
+      },
+      "phenomena": {
+        "acoustics": "Natural amplification in cave churches",
+        "temperature": "Constant cool temperature year-round",
+        "light": "Dramatic interplay of shadows and illumination",
+        "time": "Feeling of traveling through millennia"
+      },
+      "interactiveData": {
+        "clickAction": "showLivingArchaeology",
+        "hoverTooltip": "🏛️ 9,000 years of continuous life | Living stone city",
+        "detailUrl": "/location/matera-sassi-caves"
+      }
+    },
+    {
+      "id": "ms_bomarzo_monster_park_001",
+      "name": "Bomarzo Monster Park",
+      "slug": "bomarzo-sacred-grove",
+      "description": "16th-century garden of grotesque stone monsters designed to disorient and mystify visitors.",
+      "lat": 42.4908,
+      "lng": 12.2464,
+      "type": "architectural_enigma",
+      "category": "psychological_landscape",
+      "significance": "Surreal Renaissance garden challenging conventional beauty with nightmarish stone sculptures.",
+      "primaryTheme": "mindscapes",
+      "crossReferences": [
+        {
+          "theme": "livingtraditions",
+          "context": "Renaissance garden design and aristocratic patronage",
+          "focus": "16th-century artistic movements and cultural context"
+        }
+      ],
+      "color": "#957BA3",
+      "size": 6,
+      "priority": 2,
+      "country": "Italy", 
+      "region": "Lazio (Viterbo)",
+      "creation": {
+        "patron": "Pier Francesco Orsini (Vicino Orsini)",
+        "period": "1547-1584",
+        "designer": "Pirro Ligorio (attributed)",
+        "purpose": "Therapeutic garden after wife's death",
+        "philosophy": "Challenge Renaissance harmony with chaos"
+      },
+      "sculptures": {
+        "orcus": "Giant mouth entrance with inscription 'Abandon all thought'",
+        "elephant": "War elephant crushing Roman soldier",
+        "dragon": "Multi-headed dragon battling warriors",
+        "leaning_house": "Tilted building causing vertigo",
+        "giants": "Hercules tearing apart enemy",
+        "total": "Over 30 grotesque monuments"
+      },
+      "psychology": {
+        "intention": "Disturb and disorient visitors",
+        "effect": "Vertigo, unease, wonder",
+        "symbolism": "Grief, mortality, chaos vs. order",
+        "influence": "Inspired Surrealist artists like Salvador Dalí"
+      },
+      "interactiveData": {
+        "clickAction": "showPsychologicalLandscape",
+        "hoverTooltip": "👹 Renaissance nightmare garden | Surreal stone monsters",
+        "detailUrl": "/location/bomarzo-sacred-grove"
+      }
+    },
+    {
+      "id": "ms_castelluccio_flowering_001",
+      "name": "Castelluccio Blooming Phenomenon",
+      "slug": "castelluccio-flowering-spectacle",
+      "description": "Annual transformation of mountain plateau into a carpet of wildflowers in impossible colors.",
+      "lat": 42.8289,
+      "lng": 13.2083,
+      "type": "botanical_phenomenon",
+      "category": "natural_spectacle",
+      "elevation": 1452,
+      "significance": "Spectacular annual blooming creating one of Italy's most surreal natural displays.",
+      "primaryTheme": "mindscapes",
+      "crossReferences": [
+        {
+          "theme": "wildrealms",
+          "context": "Monti Sibillini National Park ecosystem and biodiversity",
+          "focus": "High-altitude flora and environmental conditions"
+        },
+        {
+          "theme": "livingtraditions",
+          "context": "Traditional lentil cultivation and mountain community life",
+          "focus": "Agricultural practices in harmony with natural cycles"
+        }
+      ],
+      "color": "#AC97BC",
+      "size": 7,
+      "priority": 1,
+      "country": "Italy",
+      "region": "Umbria (Monti Sibillini)",
+      "phenomenon": {
+        "timing": "Late May to early July",
+        "peak": "Mid-June for maximum color intensity",
+        "area": "15 km² of blooming plateau",
+        "elevation": "1200-1800m altitude range",
+        "species": "Over 80 flowering species",
+        "colors": "Impossible reds, purples, yellows, blues"
+      },
+      "flowers": {
+        "poppies": "Papaver rhoeas - brilliant red carpets",
+        "cornflowers": "Centaurea cyanus - electric blue",
+        "lentils": "Lens culinaris - purple-white agricultural blooms",
+        "daisies": "Leucanthemum - white constellation effect",
+        "gentians": "Gentiana - deep blue mountain species",
+        "orchids": "Wild orchid species adding exotic touches"
+      },
+      "mystery": {
+        "timing": "Why this exact synchronization each year?",
+        "intensity": "How do such vivid colors develop?",
+        "patterns": "Natural arrangements seem too perfect",
+        "photography": "Colors appear almost artificial in photos",
+        "legend": "Local beliefs about mountain spirits painting the landscape"
+      },
+      "interactiveData": {
+        "clickAction": "showBotanicalSpectacle",
+        "hoverTooltip": "🌺 Impossible color symphony | Annual mountain magic",
+        "detailUrl": "/location/castelluccio-flowering-spectacle"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "conn_volcanic_arc",
+      "name": "Italian Volcanic Mystery Arc",
+      "description": "Chain of active volcanoes creating a mystical arc of fire across Italy",
+      "startPointId": "ms_stromboli_lighthouse_001",
+      "endPointId": "ms_etna_philosophers_001",
+      "startLat": 38.789,
+      "startLng": 15.213,
+      "endLat": 37.748,
+      "endLng": 14.999,
+      "type": "geological_phenomenon",
+      "category": "volcanic_connection",
+      "color": "rgba(172, 151, 188, 0.8)",
+      "strokeWidth": 4,
+      "animationSpeed": 3000,
+      "significance": "Geological connection between Sicily's most mystical volcanic sites"
+    },
+    {
+      "id": "conn_philosophical_axis",
+      "name": "Ancient Wisdom Axis",
+      "description": "Line connecting sites of ancient philosophical and mystical significance",
+      "startPointId": "ms_etna_philosophers_001",
+      "endPointId": "ms_matera_time_cave_001",
+      "startLat": 37.748,
+      "startLng": 14.999,
+      "endLat": 40.6663,
+      "endLng": 16.6044,
+      "type": "wisdom_connection",
+      "category": "intellectual_heritage",
+      "color": "rgba(192, 177, 206, 0.6)",
+      "strokeWidth": 2,
+      "animationSpeed": 4500,
+      "significance": "Connection between ancient sites of learning and continuous human wisdom"
+    },
+    {
+      "id": "conn_renaissance_mystery",
+      "name": "Renaissance Enigma Network", 
+      "description": "Connection between Renaissance sites exploring the mysteries of human psychology",
+      "startPointId": "ms_bomarzo_monster_park_001",
+      "endPointId": "ms_blue_grotto_capri_001",
+      "startLat": 42.4908,
+      "startLng": 12.2464,
+      "endLat": 40.5627,
+      "endLng": 14.2056,
+      "type": "cultural_mystery",
+      "category": "renaissance_enigma",
+      "color": "rgba(149, 123, 163, 0.7)",
+      "strokeWidth": 3,
+      "animationSpeed": 5000,
+      "significance": "Renaissance exploration of beauty, mystery, and human psychology"
+    },
+    {
+      "id": "conn_natural_art",
+      "name": "Nature's Art Gallery",
+      "description": "Natural phenomena creating artistic displays across landscapes",
+      "startPointId": "ms_castelluccio_flowering_001",
+      "endPointId": "ms_alpe_di_siusi_stone_men_001",
+      "startLat": 42.8289,
+      "startLng": 13.2083,
+      "endLat": 46.5436,
+      "endLng": 11.6439,
+      "type": "natural_artistry",
+      "category": "geological_art",
+      "color": "rgba(172, 151, 188, 0.5)",
+      "strokeWidth": 2,
+      "animationSpeed": 6000,
+      "significance": "Natural processes creating artistic masterpieces across Italian mountains"
+    }
+  ],
+  "regions": [
+    {
+      "id": "italian_mystery_triangle",
+      "name": "Italian Peninsula of Mysteries",
+      "description": "Geological and cultural phenomena creating Italy's most enigmatic landscapes",
+      "centerLat": 41.0,
+      "centerLng": 14.0,
+      "boundingBox": {
+        "north": 47.0,
+        "south": 36.0,
+        "east": 18.0,
+        "west": 10.0
+      },
+      "color": "rgba(172, 151, 188, 0.15)",
+      "strokeColor": "#AC97BC",
+      "importance": "mystical",
+      "contains": ["ms_stromboli_lighthouse_001", "ms_etna_philosophers_001", "ms_blue_grotto_capri_001", "ms_matera_time_cave_001", "ms_bomarzo_monster_park_001"],
+      "characteristics": [
+        "Concentrated geological anomalies",
+        "Ancient philosophical sites",
+        "Unexplained natural phenomena",
+        "Cultural mysteries and legends"
+      ]
+    },
+    {
+      "id": "alpine_enigmas",
+      "name": "Alpine Mystery Zone",
+      "description": "High-altitude phenomena and geological curiosities of the Italian Alps",
+      "centerLat": 46.5,
+      "centerLng": 11.5,
+      "boundingBox": {
+        "north": 47.0,
+        "south": 46.0,
+        "east": 12.5,
+        "west": 10.5
+      },
+      "color": "rgba(172, 151, 188, 0.2)",
+      "strokeColor": "#AC97BC",
+      "importance": "high",
+      "contains": ["ms_alpe_di_siusi_stone_men_001"],
+      "characteristics": [
+        "High-altitude geological formations",
+        "Alpine folklore and legends",
+        "Unique mountain phenomena",
+        "Ancient cultural interpretations"
+      ]
+    }
+  ],
+  "interactionSettings": {
+    "globeControls": {
+      "enableZoom": true,
+      "enableRotation": true,
+      "enablePan": true,
+      "autoRotate": true,
+      "autoRotateSpeed": 0.2
+    },
+    "pointInteractions": {
+      "hoverEffects": true,
+      "clickNavigation": true,
+      "tooltipDelay": 500,
+      "highlightConnections": true,
+      "showCrossReferences": true,
+      "glowEffect": true,
+      "mysticalAnimation": true
+    },
+    "viewPresets": [
+      {
+        "name": "Italian Mysteries",
+        "lat": 41.0,
+        "lng": 14.0,
+        "altitude": 2.2,
+        "description": "Overview of Italy's most enigmatic sites"
+      },
+      {
+        "name": "Volcanic Arc",
+        "lat": 38.3,
+        "lng": 15.1,
+        "altitude": 1.5,
+        "description": "Focus on Sicily's volcanic mysteries"
+      },
+      {
+        "name": "Ancient Philosophy",
+        "lat": 37.7,
+        "lng": 15.0,
+        "altitude": 0.8,
+        "description": "Close-up of Mount Etna philosophical site"
+      },
+      {
+        "name": "Alpine Enigmas",
+        "lat": 46.5,
+        "lng": 11.6,
+        "altitude": 1.2,
+        "description": "Stone men of the Dolomites region"
+      }
+    ]
+  },
+  "legend": {
+    "pointTypes": [
+      {
+        "type": "acoustic_phenomenon",
+        "color": "#AC97BC",
+        "icon": "🎵",
+        "label": "Sound Phenomena"
+      },
+      {
+        "type": "volcanic_phenomenon",
+        "color": "#C0B1CE",
+        "icon": "🌋",
+        "label": "Volcanic Mystery"
+      },
+      {
+        "type": "optical_phenomenon",
+        "color": "#957BA3",
+        "icon": "💙",
+        "label": "Light Phenomena"
+      },
+      {
+        "type": "geological_formation",
+        "color": "#AC97BC",
+        "icon": "🗿",
+        "label": "Rock Formations"
+      },
+      {
+        "type": "archaeological_mystery",
+        "color": "#C0B1CE",
+        "icon": "🏛️",
+        "label": "Ancient Mysteries"
+      },
+      {
+        "type": "botanical_phenomenon",
+        "color": "#AC97BC",
+        "icon": "🌺",
+        "label": "Natural Spectacles"
+      }
+    ],
+    "connectionTypes": [
+      {
+        "type": "geological_phenomenon",
+        "color": "rgba(172, 151, 188, 0.8)",
+        "style": "solid",
+        "label": "Geological Connection"
+      },
+      {
+        "type": "wisdom_connection",
+        "color": "rgba(192, 177, 206, 0.6)",
+        "style": "dashed",
+        "label": "Ancient Wisdom"
+      },
+      {
+        "type": "cultural_mystery",
+        "color": "rgba(149, 123, 163, 0.7)",
+        "style": "dotted",
+        "label": "Cultural Enigma"
+      }
+    ]
+  },
+  "mysteryStats": {
+    "unexplainedPhenomena": 12,
+    "scientificStudies": 45,
+    "folkloreTraditions": 38,
+    "filmLocations": 15,
+    "researchSites": 8,
+    "mysteries": [
+      "How do sand dunes produce music?",
+      "Why did Empedocles jump into Etna?",
+      "What makes Capri's grotto so blue?",
+      "How did Matera survive 9,000 years?",
+      "Who designed Bomarzo's nightmares?",
+      "Why do flowers bloom so perfectly at Castelluccio?"
+    ]
+  },
+  "analytics": {
+    "popularPoints": ["ms_etna_philosophers_001", "ms_blue_grotto_capri_001", "ms_stromboli_lighthouse_001"],
+    "searchKeywords": ["mysteries", "volcano", "caves", "phenomena", "strange", "unusual", "legends"],
+    "averageViewTime": 320,
+    "interactionHotspots": [
+      {"lat": 37.7, "lng": 15.0, "intensity": 0.95},
+      {"lat": 40.6, "lng": 14.2, "intensity": 0.85},
+      {"lat": 38.8, "lng": 15.2, "intensity": 0.75}
+    ]
+  }
+}

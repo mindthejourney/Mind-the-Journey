@@ -1,0 +1,72 @@
+{
+  "theme": "borderscapes",
+  "name": "BorderScapes - Confini Amministrativi",
+  "description": "Esplora confini, regioni e divisioni territoriali",
+  "points": [
+    {
+      "id": "italy_rome",
+      "name": "Roma - Capitale d'Italia",
+      "description": "Centro amministrativo e culturale",
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "color": "#D9CAB3",
+      "type": "capital",
+      "region": "Lazio",
+      "population": 2873000,
+      "significance": "Centro del potere politico italiano"
+    },
+    {
+      "id": "italy_milan",
+      "name": "Milano - Capitale Economica",
+      "description": "Hub finanziario del Nord Italia",
+      "lat": 45.4642,
+      "lng": 9.1900,
+      "color": "#B8A082",
+      "type": "economic_center",
+      "region": "Lombardia",
+      "population": 1396000,
+      "significance": "Centro economico e finanziario"
+    },
+    {
+      "id": "vatican_city",
+      "name": "Città del Vaticano",
+      "description": "Stato sovrano più piccolo del mondo",
+      "lat": 41.9029,
+      "lng": 12.4534,
+      "color": "#F4D03F",
+      "type": "microstate",
+      "area": 0.17,
+      "significance": "Enclave sovrana all'interno di Roma"
+    }
+  ],
+  "connections": [
+    {
+      "startLat": 41.9028,
+      "startLng": 12.4964,
+      "endLat": 45.4642,
+      "endLng": 9.1900,
+      "color": "rgba(217, 202, 179, 0.6)",
+      "description": "Asse Roma-Milano: collegamento amministrativo-economico"
+    }
+  ],
+  "regions": [
+    {
+      "name": "Lombardia",
+      "centerLat": 45.7,
+      "centerLng": 9.7,
+      "color": "#D9CAB3",
+      "population": 10060574,
+      "area": 23844,
+      "provinces": 12
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-01-15",
+    "totalPoints": 3,
+    "focusArea": {
+      "lat": 42.5,
+      "lng": 12.5,
+      "altitude": 1.5
+    }
+  }
+}
